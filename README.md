@@ -7,7 +7,8 @@ Everything Titus Hielkema and I used for our end-project of the Practical Bioinf
 This script analyses data files containing microsatallite data. It tests and returns which loci and the percentage of loci depart from the Hardy-Weinberg Wquilibrium (HWE). If threshold is reached (on default: 50% of loci departing from HWE) it will analyse the data for population structure and returns images for ...
 
 ## Data input
-.xlsx file containing sample ID, sample site & microsatalite date (alleles seperated using '/' for each locus).
+R requires a .xlsx file containing sample ID (with header), sample site & microsatalite date (alleles seperated using '/' for each locus).
+Structure requires a .txt file containing sample ID (without header), sample site & microsatalite date (alleles seperated using '/' for each locus).
 
 ## Scripts
 1. Python script: Main script

@@ -8,7 +8,7 @@ library(pegas)
 print("All packages loaded succesfully")
 
 # load data in variable d
-d <- read.xlsx("shark_ms_ordered.xlsx",sheetName=2,1)
+d <- read.table("WS_R_msat.txt", sep=" ", header=TRUE)
 
 # analyse data and store in a genind object (contains several types of data)
 # later we will extract the number of alleles per locus
